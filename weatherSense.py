@@ -30,7 +30,7 @@ def add_tags(songs):
 
     while (count < 5):#len(songs)):
 
-        tag = raw_input('Enter the Tag you wish to add to this song: ' + songs[count] + '\n>').lower()
+        tag = raw_input('Enter the Tag you wish to add to this song : ' + songs[count] + '\n>').lower()
 
         if str(tag) == 'slow' or str(tag) == 'medium' or str(tag) == 'fast':
             my_dict.setdefault(tag, [])
